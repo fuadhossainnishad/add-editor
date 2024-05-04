@@ -1,10 +1,17 @@
-import './App.css'
+import Routing from './Routing.tsx'
+// import { useEffect } from 'react';
+// import AOS from "aos";
+// import 'aos/dist/aos.css';
 
-function App() {
+
+const App = () => {
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
 
   return (
-    <div>
-        Online Multi user code editor
+    <div className='app'>
+      <Routing/>
     </div>
   )
 }
